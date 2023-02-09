@@ -9,7 +9,7 @@ namespace EmployeeWageComputation1
     public class SolvingSwitchCase
     {
         public const int IS_FULL_TIME = 1;
-        public const int EMP_RATE_PER_HOUR = 20;
+        public const int EMPLOYEE_RATE_PER_HOUR = 20;
         public const int IS_PART_TIME = 2;
         public static void CheckEmployeeWorkHours()
         {
@@ -38,7 +38,7 @@ namespace EmployeeWageComputation1
             }
 
 
-            empWage = empHrs * EMP_RATE_PER_HOUR;
+            empWage = empHrs * EMPLOYEE_RATE_PER_HOUR;
             Console.WriteLine("Emp Wage : " + empWage);
         }
     }
